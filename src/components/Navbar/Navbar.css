@@ -1,0 +1,38 @@
+.nav{
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+span{
+    padding: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white; 
+}
+span:hover {
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width:80px;
+    cursor: pointer;
+}
+.right_part {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.right_part:hover{
+    color: red;
+}
+.left_part, .right_part {
+    display: flex;
+}
+
+
+
+
